@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background: URL(pop-up\ background4.jpg);
+    background-size:cover;
+    background-position:auto;
+    font-family:sans-serif; 
+}
+.pop-upbox{
+    width:320px;
+    height:420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left : 35%;
+    position: absolute;
+    transform : translate(-50%, -50%);
+    box-sizing: border-box;
+    padding:70px 30px;
+}
+
+.pop-up .avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 150%;
+    position : absolute;
+    top : 10px;
+    left : calc(50% - 50px);
+
+}
+
+.pop-up p{
+    text-align: center;
+    margin-top: 200px;
+    font-size:80px ;
+    padding-top: 2em;
+    font-weight: bold;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    color:#000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+.pop-up input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    margin-left: 1000px;
+    background-color: #66a6db;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.pop-up input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ff6207;
+    color: #000;
+}
